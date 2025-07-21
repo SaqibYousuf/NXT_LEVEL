@@ -20,7 +20,7 @@ export function AppFooter() {
           </div>
 
           {/* Navigation */}
-          <div className="space-y-2 text-sm">
+          <div className="space-y-2 text-sm "  style={{display:"flex", flexDirection: "column"}}>
             <p className="font-semibold">Quick Links</p>
             <Link href="/" className="hover:text-foreground text-muted-foreground">
               Home
@@ -40,7 +40,7 @@ export function AppFooter() {
           </div>
 
           {/* Contact */}
-          <div className="space-y-2 text-sm">
+          <div className="space-y-2 text-sm ">
             <p className="font-semibold">Contact</p>
             <a href="mailto:it@nxtlevel.homes" className="hover:text-foreground text-muted-foreground">
               it@nxtlevel.homes
